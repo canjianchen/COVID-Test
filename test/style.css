@@ -5,8 +5,25 @@
   
 }
 body{
-  background: #FDFAFA;
+  background: rgb(255, 255, 255);
 }
+.container2{
+  width: 400px;
+  height: 610px;
+  margin: 8% auto;
+  background: rgb(128, 128, 128);
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+/*
+h3{
+  text-align: center;
+  margin-bottom: 40px;
+  color: #777;
+}
+*/
+
 .container{
   width:100%;
   min-height: 100vh;
@@ -15,6 +32,61 @@ body{
   box-sizing: border-box;
   overflow: hidden;
 }
+.container form{
+  width: 280px;
+  position: absolute;
+  top: 100px;
+  left: 40px;;
+  transition: 0.5s;
+}
+
+
+
+
+#Form1{
+  
+  
+}
+
+#Form2{
+  
+  left: 450px; 
+  
+}
+
+
+
+
+
+form button{
+  width: 110px;
+  height: 35px;
+  margin: 0 10px;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 30px;
+  border: 0;
+  outline: none;
+  coolor: #fff;
+  cursor: pointer;
+
+}
+
+.btn-box{
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 .navbar{
   width: 100%;
   display: flex;
